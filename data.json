@@ -1,0 +1,3040 @@
+{
+  "data": {
+    "type": "properties",
+    "collection": [
+      {
+        "objectid": 173,
+        "name": "Origin indicator_Triangle_SITE_MOE [259966]",
+        "externalId": "42f0a0c2-9641-405b-9ff5-13db67062212-0003f77e",
+        "properties": {
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Host": "Level : Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Offset from Host": "0.000 mm",
+            "Moves With Nearby Elements": "No",
+            "Default Elevation": "0.000 mm"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "K09_KON",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "Type Number": "",
+            "Type Sorting": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Code": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "IFC Parameters": {
+            "IfcDescription": ["", ""],
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material": "Site Inducator Construction engineer"
+          },
+          "Other": {
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassCode_Type": "",
+            "CCSClassName_Type": "",
+            "CCSClassification_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTopnode_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "FKKode": ""
+          }
+        }
+      },
+      {
+        "objectid": 10866,
+        "name": "K09_KON",
+        "externalId": "42f0a0c2-9641-405b-9ff5-13db67062212-0003f762",
+        "properties": {
+          "IFC Parameters": {
+            "IfcDescription": ["", ""],
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Constraints": {
+            "Default Elevation": "0.000 mm"
+          },
+          "Materials and Finishes": {
+            "Material": "Site Inducator Construction engineer"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "Type Number": "",
+            "Type Sorting": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Code": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "",
+            "Workset": "Family  : Site : Origin indicator_Triangle_SITE_MOE",
+            "Edited by": "",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassCode_Type": "",
+            "CCSClassName_Type": "",
+            "CCSClassification_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTopnode_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "FKKode": ""
+          }
+        }
+      },
+      {
+        "objectid": 10865,
+        "name": "Origin indicator_Triangle_SITE_MOE",
+        "externalId": "b7de6747-d8e3-45aa-beb2-1b9f34e859e6",
+        "properties": {}
+      },
+      {
+        "objectid": 168,
+        "name": "Site",
+        "externalId": "ef4af390-0ca6-4856-88e3-d794ac1466b1",
+        "properties": {}
+      },
+      {
+        "objectid": 174,
+        "name": "Basic Wall [321150]",
+        "externalId": "05715e94-2808-4363-8b0e-e99d6c480d84-0004e67e",
+        "properties": {
+          "Structural": {
+            "Structural": "No",
+            "Enable Analytical Model": "No",
+            "Structural Usage": "Non-bearing",
+            "Stabilizing": "No"
+          },
+          "Constraints": {
+            "Location Line": "Wall Centerline",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "0.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "3000.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "Yes",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Sandwichelement - 480mm",
+            "Type Image": "",
+            "Keynote": "(21)3.",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "9500.000 mm",
+            "Area": "28.165 m^2",
+            "Volume": "13.424 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Both",
+            "Wrapping at Ends": "Exterior",
+            "Width": "480.000 mm",
+            "Function": "Exterior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.144 W/(m²·K)",
+            "Thermal Resistance (R)": "6.969 (m²·K)/W",
+            "Thermal Mass": "38.558 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 176,
+        "name": "Basic Wall [321152]",
+        "externalId": "05715e94-2808-4363-8b0e-e99d6c480d84-0004e680",
+        "properties": {
+          "Structural": {
+            "Structural": "No",
+            "Enable Analytical Model": "No",
+            "Structural Usage": "Non-bearing",
+            "Stabilizing": "No"
+          },
+          "Constraints": {
+            "Location Line": "Wall Centerline",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "0.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "3000.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "Yes",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Sandwichelement - 480mm",
+            "Type Image": "",
+            "Keynote": "(21)3.",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "9500.000 mm",
+            "Area": "25.467 m^2",
+            "Volume": "12.128 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Both",
+            "Wrapping at Ends": "Exterior",
+            "Width": "480.000 mm",
+            "Function": "Exterior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.144 W/(m²·K)",
+            "Thermal Resistance (R)": "6.969 (m²·K)/W",
+            "Thermal Mass": "38.558 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 177,
+        "name": "Basic Wall [321153]",
+        "externalId": "05715e94-2808-4363-8b0e-e99d6c480d84-0004e681",
+        "properties": {
+          "Structural": {
+            "Structural": "No",
+            "Enable Analytical Model": "No",
+            "Structural Usage": "Non-bearing",
+            "Stabilizing": "No"
+          },
+          "Constraints": {
+            "Location Line": "Wall Centerline",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "0.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "3000.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "Yes",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Sandwichelement - 480mm",
+            "Type Image": "",
+            "Keynote": "(21)3.",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "6500.000 mm",
+            "Area": "18.738 m^2",
+            "Volume": "8.994 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Both",
+            "Wrapping at Ends": "Exterior",
+            "Width": "480.000 mm",
+            "Function": "Exterior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.144 W/(m²·K)",
+            "Thermal Resistance (R)": "6.969 (m²·K)/W",
+            "Thermal Mass": "38.558 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11223,
+        "name": "Sandwichelement - 480mm",
+        "externalId": "e3e072de-b33b-44db-911b-cccb1782ac9c-000190c5",
+        "properties": {
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Both",
+            "Wrapping at Ends": "Exterior",
+            "Width": "480.000 mm",
+            "Function": "Exterior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "(21)3.",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FE",
+            "Workset": "Wall Types",
+            "Edited by": ""
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.144 W/(m²·K)",
+            "Thermal Resistance (R)": "6.969 (m²·K)/W",
+            "Thermal Mass": "38.558 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 175,
+        "name": "Basic Wall [321151]",
+        "externalId": "05715e94-2808-4363-8b0e-e99d6c480d84-0004e67f",
+        "properties": {
+          "Structural": {
+            "Structural": "No",
+            "Enable Analytical Model": "No",
+            "Structural Usage": "Non-bearing",
+            "Stabilizing": "No"
+          },
+          "Constraints": {
+            "Location Line": "Wall Centerline",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "0.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "3000.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "Yes",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Sandwichelement - 450mm",
+            "Type Image": "",
+            "Keynote": "(21)3.",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "6500.000 mm",
+            "Area": "19.614 m^2",
+            "Volume": "8.826 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Both",
+            "Wrapping at Ends": "Exterior",
+            "Width": "450.000 mm",
+            "Function": "Exterior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.133 W/(m²·K)",
+            "Thermal Resistance (R)": "7.512 (m²·K)/W",
+            "Thermal Mass": "31.772 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11224,
+        "name": "Sandwichelement - 450mm",
+        "externalId": "e3e072de-b33b-44db-911b-cccb1782ac9c-000190c3",
+        "properties": {
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Both",
+            "Wrapping at Ends": "Exterior",
+            "Width": "450.000 mm",
+            "Function": "Exterior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "(21)3.",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FE",
+            "Workset": "Wall Types",
+            "Edited by": ""
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.133 W/(m²·K)",
+            "Thermal Resistance (R)": "7.512 (m²·K)/W",
+            "Thermal Mass": "31.772 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11105,
+        "name": "Basic Wall [324891]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f51b",
+        "properties": {
+          "Structural": {
+            "Structural": "Yes",
+            "Enable Analytical Model": "Yes",
+            "Structural Usage": "Bearing",
+            "Stabilizing": "No",
+            "Rebar Cover - Exterior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Interior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Other Faces": "Rebar Cover 1 <25 mm>"
+          },
+          "Constraints": {
+            "Location Line": "Wall Centerline",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "0.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "3000.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "No",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Beton vægelement - 150mm",
+            "Type Image": "",
+            "Keynote": "(22)21.05,01",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "VE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "2525.000 mm",
+            "Area": "7.080 m^2",
+            "Volume": "1.062 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "150.000 mm",
+            "Function": "Interior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "6.973 W/(m²·K)",
+            "Thermal Resistance (R)": "0.143 (m²·K)/W",
+            "Thermal Mass": "21.058 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11106,
+        "name": "Basic Wall [324947]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f553",
+        "properties": {
+          "Structural": {
+            "Structural": "Yes",
+            "Enable Analytical Model": "Yes",
+            "Structural Usage": "Bearing",
+            "Stabilizing": "No",
+            "Rebar Cover - Exterior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Interior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Other Faces": "Rebar Cover 1 <25 mm>"
+          },
+          "Constraints": {
+            "Location Line": "Wall Centerline",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "0.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "3000.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "No",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Beton vægelement - 150mm",
+            "Type Image": "",
+            "Keynote": "(22)21.05,01",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "VE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "4750.000 mm",
+            "Area": "13.305 m^2",
+            "Volume": "1.996 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "150.000 mm",
+            "Function": "Interior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "6.973 W/(m²·K)",
+            "Thermal Resistance (R)": "0.143 (m²·K)/W",
+            "Thermal Mass": "21.058 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11079,
+        "name": "Beton vægelement - 150mm",
+        "externalId": "e3e072de-b33b-44db-911b-cccb1782ac9c-000190af",
+        "properties": {
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "150.000 mm",
+            "Function": "Interior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "(22)21.05,01",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "VE",
+            "Workset": "Wall Types",
+            "Edited by": ""
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Væg - 2% Steel"
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.væg",
+            "CCSClassCode_Type": "ULM",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "6.973 W/(m²·K)",
+            "Thermal Resistance (R)": "0.143 (m²·K)/W",
+            "Thermal Mass": "21.058 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11107,
+        "name": "Basic Wall [325164]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f62c",
+        "properties": {
+          "Structural": {
+            "Structural": "Yes",
+            "Enable Analytical Model": "Yes",
+            "Structural Usage": "Bearing",
+            "Stabilizing": "No",
+            "Rebar Cover - Exterior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Interior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Other Faces": "Rebar Cover 1 <25 mm>"
+          },
+          "Constraints": {
+            "Location Line": "Finish Face: Interior",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "-1200.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "1200.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "No",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Fundament - 900mm",
+            "Type Image": "",
+            "Keynote": "(12.)",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FL"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.fun",
+            "CCSClassCode_Type": "UKE",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "9435.000 mm",
+            "Area": "11.772 m^2",
+            "Volume": "4.709 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "400.000 mm",
+            "Function": "Foundation"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Beton In Situ - Fundament - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "2.615 W/(m²·K)",
+            "Thermal Resistance (R)": "0.382 (m²·K)/W",
+            "Thermal Mass": "56.154 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11108,
+        "name": "Basic Wall [325165]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f62d",
+        "properties": {
+          "Structural": {
+            "Structural": "Yes",
+            "Enable Analytical Model": "Yes",
+            "Structural Usage": "Bearing",
+            "Stabilizing": "No",
+            "Rebar Cover - Exterior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Interior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Other Faces": "Rebar Cover 1 <25 mm>"
+          },
+          "Constraints": {
+            "Location Line": "Finish Face: Interior",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "-1200.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "1200.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "No",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Fundament - 900mm",
+            "Type Image": "",
+            "Keynote": "(12.)",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FL"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.fun",
+            "CCSClassCode_Type": "UKE",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "6420.000 mm",
+            "Area": "7.704 m^2",
+            "Volume": "3.082 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "400.000 mm",
+            "Function": "Foundation"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Beton In Situ - Fundament - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "2.615 W/(m²·K)",
+            "Thermal Resistance (R)": "0.382 (m²·K)/W",
+            "Thermal Mass": "56.154 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11109,
+        "name": "Basic Wall [325166]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f62e",
+        "properties": {
+          "Structural": {
+            "Structural": "Yes",
+            "Enable Analytical Model": "Yes",
+            "Structural Usage": "Bearing",
+            "Stabilizing": "No",
+            "Rebar Cover - Exterior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Interior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Other Faces": "Rebar Cover 1 <25 mm>"
+          },
+          "Constraints": {
+            "Location Line": "Finish Face: Interior",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "-1200.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "1200.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "No",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Fundament - 900mm",
+            "Type Image": "",
+            "Keynote": "(12.)",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FL"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.fun",
+            "CCSClassCode_Type": "UKE",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "9435.000 mm",
+            "Area": "11.322 m^2",
+            "Volume": "4.529 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "400.000 mm",
+            "Function": "Foundation"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Beton In Situ - Fundament - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "2.615 W/(m²·K)",
+            "Thermal Resistance (R)": "0.382 (m²·K)/W",
+            "Thermal Mass": "56.154 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11110,
+        "name": "Basic Wall [325167]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f62f",
+        "properties": {
+          "Structural": {
+            "Structural": "Yes",
+            "Enable Analytical Model": "Yes",
+            "Structural Usage": "Bearing",
+            "Stabilizing": "No",
+            "Rebar Cover - Exterior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Interior Face": "Rebar Cover 1 <25 mm>",
+            "Rebar Cover - Other Faces": "Rebar Cover 1 <25 mm>"
+          },
+          "Constraints": {
+            "Location Line": "Finish Face: Interior",
+            "Base Constraint": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Base Offset": "-1200.000 mm",
+            "Base is Attached": "No",
+            "Base Extension Distance": "0.000 mm",
+            "Top Constraint": "Unconnected",
+            "Unconnected Height": "1200.000 mm",
+            "Top Offset": "0.000 mm",
+            "Top is Attached": "No",
+            "Top Extension Distance": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Cross-Section": "Vertical"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Fundament - 900mm",
+            "Type Image": "",
+            "Keynote": "(12.)",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FL"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.fun",
+            "CCSClassCode_Type": "UKE",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Length": "6420.000 mm",
+            "Area": "7.224 m^2",
+            "Volume": "2.890 m^3"
+          },
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "400.000 mm",
+            "Function": "Foundation"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Beton In Situ - Fundament - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "2.615 W/(m²·K)",
+            "Thermal Resistance (R)": "0.382 (m²·K)/W",
+            "Thermal Mass": "56.154 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11225,
+        "name": "Fundament - 900mm",
+        "externalId": "e3e072de-b33b-44db-911b-cccb1782ac9c-000190b9",
+        "properties": {
+          "Construction": {
+            "Structure": "",
+            "Wrapping at Inserts": "Do not wrap",
+            "Wrapping at Ends": "None",
+            "Width": "400.000 mm",
+            "Function": "Foundation"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "<Solid fill>",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "(12.)",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Fire Rating": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "FL",
+            "Workset": "Wall Types",
+            "Edited by": ""
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Beton In Situ - Fundament - 2% Steel"
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.fun",
+            "CCSClassCode_Type": "UKE",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "2.615 W/(m²·K)",
+            "Thermal Resistance (R)": "0.382 (m²·K)/W",
+            "Thermal Mass": "56.154 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11077,
+        "name": "Basic Wall",
+        "externalId": "27a45835-c1e8-430e-a6b0-ecaba3ebdee9",
+        "properties": {}
+      },
+      {
+        "objectid": 170,
+        "name": "Walls",
+        "externalId": "3fa1e78c-d857-4b86-bb85-755f8a99cae8",
+        "properties": {}
+      },
+      {
+        "objectid": 178,
+        "name": "Floor [321173]",
+        "externalId": "05715e94-2808-4363-8b0e-e99d6c480d84-0004e695",
+        "properties": {
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Height Offset From Level": "0.000 mm",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No"
+          },
+          "Structural": {
+            "Structural": "No",
+            "Enable Analytical Model": "No"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Huldæk - 180mm",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "DE"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.dæk",
+            "CCSClassCode_Type": "ULK",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Slope": "0.000 °",
+            "Perimeter": "30110.000 mm",
+            "Area": "54.391 m^2",
+            "Volume": "9.790 m^3",
+            "Elevation at Top": "0.000 mm",
+            "Elevation at Bottom": "-180.000 mm",
+            "Thickness": "180.000 mm"
+          },
+          "Construction": {
+            "Structure": "",
+            "Default Thickness": "180.000 mm",
+            "Function": "Interior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Dæk - 2% Steel"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "1.167 W/(m²·K)",
+            "Thermal Resistance (R)": "0.857 (m²·K)/W",
+            "Thermal Mass": "8.147 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11083,
+        "name": "Huldæk - 180mm",
+        "externalId": "6fea3bf1-eddc-4b73-b4be-420f9b02d0b1-00034e7c",
+        "properties": {
+          "Construction": {
+            "Structure": "",
+            "Default Thickness": "180.000 mm",
+            "Function": "Interior"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "DE",
+            "Workset": "Floor Types",
+            "Edited by": ""
+          },
+          "Materials and Finishes": {
+            "Structural Material": "Betonelement - Dæk - 2% Steel"
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "bk.dæk",
+            "CCSClassCode_Type": "ULK",
+            "CCSTopnode_Type": "[L]",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "1.167 W/(m²·K)",
+            "Thermal Resistance (R)": "0.857 (m²·K)/W",
+            "Thermal Mass": "8.147 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11082,
+        "name": "Floor",
+        "externalId": "9ce8310a-c44d-4ee9-8b2d-c7a4f65a05a9",
+        "properties": {}
+      },
+      {
+        "objectid": 171,
+        "name": "Floors",
+        "externalId": "208563f1-0a96-4a02-840f-86fd326fb2d8",
+        "properties": {}
+      },
+      {
+        "objectid": 180,
+        "name": "Udvendig ét fags vindue med fast karm_WI_MOE [321221]",
+        "externalId": "05715e94-2808-4363-8b0e-e99d6c480d84-0004e6c5",
+        "properties": {
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Data": {
+            "Area_Glass": "2.241 m^2",
+            "Area_Window": "2.632 m^2"
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Sill Height": "0.000 mm"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Height": "2152.000 mm",
+            "Width": "1192.000 mm",
+            "Insertion Window": "50.000 mm",
+            "Rough Width": "1212.000 mm",
+            "Rough Height": "2172.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "2",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "2172x1212",
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "2",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "Head Height": "2152.000 mm",
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          }
+        }
+      },
+      {
+        "objectid": 11229,
+        "name": "2172x1212",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f31b",
+        "properties": {
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          },
+          "Dimensions": {
+            "Rough Width": "1212.000 mm",
+            "Rough Height": "2172.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "2",
+            "Workset": "Family  : Windows : Udvendig ét fags vindue med fast karm_WI_MOE",
+            "Edited by": "",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          }
+        }
+      },
+      {
+        "objectid": 11099,
+        "name": "Udvendig ét fags vindue med fast karm_WI_MOE [324496]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f390",
+        "properties": {
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Data": {
+            "Area_Glass": "3.574 m^2",
+            "Area_Window": "4.044 m^2"
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Sill Height": "0.000 mm"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Height": "2212.000 mm",
+            "Width": "1792.000 mm",
+            "Insertion Window": "50.000 mm",
+            "Rough Width": "1812.000 mm",
+            "Rough Height": "2232.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "3",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "2232x1812",
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "3",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "Head Height": "2212.000 mm",
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          }
+        }
+      },
+      {
+        "objectid": 11100,
+        "name": "Udvendig ét fags vindue med fast karm_WI_MOE [324544]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f3c0",
+        "properties": {
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Data": {
+            "Area_Glass": "3.574 m^2",
+            "Area_Window": "4.044 m^2"
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Sill Height": "250.082 mm"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Height": "2212.000 mm",
+            "Width": "1792.000 mm",
+            "Insertion Window": "50.000 mm",
+            "Rough Width": "1812.000 mm",
+            "Rough Height": "2232.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "4",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "2232x1812",
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "3",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "Head Height": "2462.082 mm",
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          }
+        }
+      },
+      {
+        "objectid": 11230,
+        "name": "2232x1812",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f31d",
+        "properties": {
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          },
+          "Dimensions": {
+            "Rough Width": "1812.000 mm",
+            "Rough Height": "2232.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "3",
+            "Workset": "Family  : Windows : Udvendig ét fags vindue med fast karm_WI_MOE",
+            "Edited by": "",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          }
+        }
+      },
+      {
+        "objectid": 11101,
+        "name": "Udvendig ét fags vindue med fast karm_WI_MOE [324588]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f3ec",
+        "properties": {
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Data": {
+            "Area_Glass": "2.841 m^2",
+            "Area_Window": "3.270 m^2"
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Sill Height": "133.691 mm"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Height": "2212.000 mm",
+            "Width": "1445.000 mm",
+            "Insertion Window": "50.000 mm",
+            "Rough Width": "1465.000 mm",
+            "Rough Height": "2232.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "5",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "2232x1465",
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "4",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "Head Height": "2345.691 mm",
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          }
+        }
+      },
+      {
+        "objectid": 11231,
+        "name": "2232x1465",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f31f",
+        "properties": {
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Construction Type": ""
+          },
+          "Dimensions": {
+            "Rough Width": "1465.000 mm",
+            "Rough Height": "2232.000 mm",
+            "Joint": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "150.000 mm"
+          },
+          "Identity Data": {
+            "Sound Rating": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "4",
+            "Workset": "Family  : Windows : Udvendig ét fags vindue med fast karm_WI_MOE",
+            "Edited by": "",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "BIM7AATypeCode": "312",
+            "CCSClassCode_Type": "QQA",
+            "FKKode": "bk.vin",
+            "Fire Rating_Window": "",
+            "SfBKode": "31",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          }
+        }
+      },
+      {
+        "objectid": 11228,
+        "name": "Udvendig ét fags vindue med fast karm_WI_MOE",
+        "externalId": "c7d5a601-c46c-4ff5-8897-1a18f6105185",
+        "properties": {}
+      },
+      {
+        "objectid": 172,
+        "name": "Windows",
+        "externalId": "0890c302-7113-4d12-870d-e6103bfa4bcd",
+        "properties": {}
+      },
+      {
+        "objectid": 11102,
+        "name": "Indvendig enkelt glas dør_DO_MOE [324647]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f427",
+        "properties": {
+          "Visibility": {
+            "Tender Code": "",
+            "Glass Planview on/off": "Yes",
+            "Panel Opening 45gr.": "No",
+            "Panel Opening 90gr.": "Yes",
+            "Threshold on/off": "Yes"
+          },
+          "Data": {
+            "Area_Door": "2.121 m^2",
+            "Area_Glass": "1.131 m^2"
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Sill Height": "0.000 mm"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Materials and Finishes": {
+            "Frame Material": "",
+            "Finish": "",
+            "Material_Doorhandle": "Stainless Steel",
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Panel": "Overflade - Hvid - RAL 9010",
+            "Material_Threshold": "Træ"
+          },
+          "Construction": {
+            "Frame Type": "",
+            "Wall Closure": "By host",
+            "Function": "Interior",
+            "Doorhandle": "Doorhandle-Simple : Stainless",
+            "Construction Type": ""
+          },
+          "Dimensions": {
+            "Insertion Door": "0.000 mm",
+            "Rough Width": "1010.000 mm",
+            "Rough Height": "2100.000 mm",
+            "Joint side": "10.000 mm",
+            "Joint top": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "120.000 mm",
+            "Handle top": "1000.000 mm",
+            "M_Width": "10",
+            "M_Height": "21",
+            "Height": "2090.000 mm",
+            "Width": "990.000 mm",
+            "Stile Width": "120.000 mm",
+            "Top Rail Width": "120.000 mm",
+            "Bottom Rail Width": "180.000 mm",
+            "Thickness": "0.000 mm"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "2",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "1010x2100",
+            "ABDL": "",
+            "Fire Rating": "",
+            "Sound Rating": "",
+            "URL": "",
+            "Model": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "3",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "Head Height": "2090.000 mm",
+            "BIM7AATypeCode": "321",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassCode_Type": "QQC",
+            "CCSClassName_Type": "",
+            "CCSClassification_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTopnode_Type": "[L]",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "FKKode": "bk.dør",
+            "SfBKode": "32",
+            "Måleregel": ""
+          },
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          }
+        }
+      },
+      {
+        "objectid": 11236,
+        "name": "1010x2100",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004ef1c",
+        "properties": {
+          "Analytical Properties": {
+            "Analytic Construction": "",
+            "Define Thermal Properties by": "Schematic Type",
+            "Visual Light Transmittance": "0.000",
+            "Solar Heat Gain Coefficient": "0.000",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)"
+          },
+          "Visibility": {
+            "Glass Planview on/off": "Yes",
+            "Panel Opening 45gr.": "No",
+            "Panel Opening 90gr.": "Yes",
+            "Threshold on/off": "Yes"
+          },
+          "IFC Parameters": {
+            "Operation": "",
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Materials and Finishes": {
+            "Material_Doorhandle": "Stainless Steel",
+            "Material_Frame": "Overflade - Hvid - RAL 9010",
+            "Material_Glass": "Glass",
+            "Material_Joint": "Overflade - Hvid - RAL 9010",
+            "Material_Panel": "Overflade - Hvid - RAL 9010",
+            "Material_Threshold": "Træ"
+          },
+          "Construction": {
+            "Wall Closure": "By host",
+            "Function": "Interior",
+            "Doorhandle": "Doorhandle-Simple : Stainless",
+            "Construction Type": ""
+          },
+          "Dimensions": {
+            "Rough Width": "1010.000 mm",
+            "Rough Height": "2100.000 mm",
+            "Joint side": "10.000 mm",
+            "Joint top": "10.000 mm",
+            "Frame Width": "50.000 mm",
+            "Frame Depth": "120.000 mm",
+            "Handle top": "1000.000 mm",
+            "M_Width": "10",
+            "M_Height": "21",
+            "Height": "2090.000 mm",
+            "Width": "990.000 mm",
+            "Stile Width": "120.000 mm",
+            "Top Rail Width": "120.000 mm",
+            "Bottom Rail Width": "180.000 mm",
+            "Thickness": "0.000 mm"
+          },
+          "Identity Data": {
+            "ABDL": "",
+            "Fire Rating": "",
+            "Sound Rating": "",
+            "URL": "",
+            "Model": "",
+            "Assembly Code": "",
+            "Type Image": "",
+            "Keynote": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "Description": "",
+            "Cost": "0.000 ฿",
+            "Assembly Description": "",
+            "Type Mark": "3",
+            "Workset": "Family  : Doors : Indvendig enkelt glas dør_DO_MOE",
+            "Edited by": "",
+            "OmniClass Number": "",
+            "OmniClass Title": "",
+            "Code Name": ""
+          },
+          "Other": {
+            "BIM7AATypeCode": "321",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassCode_Type": "QQC",
+            "CCSClassName_Type": "",
+            "CCSClassification_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTopnode_Type": "[L]",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "FKKode": "bk.dør",
+            "SfBKode": "32",
+            "Måleregel": ""
+          }
+        }
+      },
+      {
+        "objectid": 11235,
+        "name": "Indvendig enkelt glas dør_DO_MOE",
+        "externalId": "66b8f8ec-bcdc-4f50-b298-1185e5e8158a",
+        "properties": {}
+      },
+      {
+        "objectid": 11094,
+        "name": "Doors",
+        "externalId": "8d5bb96b-7434-4f69-b133-13df37b2c70e",
+        "properties": {}
+      },
+      {
+        "objectid": 11103,
+        "name": "Basic Ceiling [324684]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f44c",
+        "properties": {
+          "Constraints": {
+            "Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Height Offset From Level": "2600.000 mm",
+            "Room Bounding": "Yes"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Default",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Cost": "0.000 ฿"
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Other": {
+            "CCSTypeName": "",
+            "CCSTypeID": "",
+            "CCSFunctionalID": "",
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "",
+            "CCSClassCode_Type": "",
+            "CCSTopnode_Type": "",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Slope": "0.000 °",
+            "Perimeter": "30110.000 mm",
+            "Area": "54.391 m^2"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Thermal Mass": "0.000 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          },
+          "Materials and Finishes": {
+            "Material": "<By Category>"
+          }
+        }
+      },
+      {
+        "objectid": 11239,
+        "name": "Default",
+        "externalId": "4f6d8d34-8054-424b-a029-5756ac0f222f-00000704",
+        "properties": {
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Cost": "0.000 ฿",
+            "Workset": "Ceiling Types",
+            "Edited by": ""
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "",
+            "CCSClassCode_Type": "",
+            "CCSTopnode_Type": "",
+            "Måleregel": "",
+            "Manuel Classification": "No"
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Thermal Mass": "0.000 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          },
+          "Materials and Finishes": {
+            "Material": "<By Category>"
+          }
+        }
+      },
+      {
+        "objectid": 11238,
+        "name": "Basic Ceiling",
+        "externalId": "7f01fa14-23f5-44a9-8a17-4aba2c3bab3b",
+        "properties": {}
+      },
+      {
+        "objectid": 11095,
+        "name": "Ceilings",
+        "externalId": "9593cc59-18e2-478e-abae-7616b6099ef6",
+        "properties": {}
+      },
+      {
+        "objectid": 11104,
+        "name": "Basic Roof [324705]",
+        "externalId": "565a1362-8ebb-4b98-8998-8a34722f6004-0004f461",
+        "properties": {
+          "Constraints": {
+            "Base Level": "Etage 0 (ET0 skal navngives 100% som akritekt Levels)",
+            "Room Bounding": "Yes",
+            "Related to Mass": "No",
+            "Base Offset From Level": "3000.000 mm",
+            "Cutoff Level": "None",
+            "Cutoff Offset": "0.000 mm"
+          },
+          "Construction": {
+            "Rafter Cut": "Plumb Cut",
+            "Fascia Depth": "0.000 mm",
+            "Maximum Ridge Height": "3850.394 mm",
+            "Structure": "",
+            "Default Thickness": "152.400 mm"
+          },
+          "Identity Data": {
+            "Image": "",
+            "Comments": "",
+            "Mark": "",
+            "Workset": "Workset1",
+            "Edited by": "",
+            "Type Name": "Generic - 400mm",
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": ""
+          },
+          "Visibility": {
+            "Tender Code": ""
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Phasing": {
+            "Phase Created": "New Construction",
+            "Phase Demolished": "None"
+          },
+          "Dimensions": {
+            "Slope": "5.000 °",
+            "Thickness": "152.400 mm",
+            "Volume": "13.603 m^3",
+            "Area": "89.260 m^2"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "",
+            "CCSClassCode_Type": "",
+            "CCSTopnode_Type": "",
+            "Måleregel": ""
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Thermal Mass": "0.000 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11242,
+        "name": "Generic - 400mm",
+        "externalId": "e3e072de-b33b-44db-911b-cccb1782ac9c-00019176",
+        "properties": {
+          "Construction": {
+            "Structure": "",
+            "Default Thickness": "152.400 mm"
+          },
+          "Graphics": {
+            "Coarse Scale Fill Pattern": "",
+            "Coarse Scale Fill Color": "0"
+          },
+          "Identity Data": {
+            "Type Image": "",
+            "Keynote": "",
+            "Model": "",
+            "Manufacturer": "",
+            "Type Comments": "",
+            "URL": "",
+            "Description": "",
+            "Assembly Description": "",
+            "Assembly Code": "",
+            "Type Mark": "",
+            "Cost": "0.000 ฿",
+            "Type Sorting": "",
+            "Workset": "Roof Types",
+            "Edited by": ""
+          },
+          "Other": {
+            "C213TypeID": "",
+            "CCSClassCodeVersion_Type": "",
+            "CCSClassification_Type": "",
+            "CCSClassName_Type": "",
+            "CCSMainTypeID_Type": "",
+            "CCSMainTypeName_Type": "",
+            "CCSSubTypeID_Type": "",
+            "CCSSubTypeName_Type": "",
+            "CCSTypeID_Type": "",
+            "CCSTypeName_Type": "",
+            "BIM7AATypeCode": "",
+            "BIM7AATypeComments": "",
+            "BIM7AATypeDescription": "",
+            "BIM7AATypeID": "",
+            "BIM7AATypeName": "",
+            "BIM7AATypeNumber": "",
+            "SfBKode": "",
+            "FKKode": "",
+            "CCSClassCode_Type": "",
+            "CCSTopnode_Type": "",
+            "Måleregel": ""
+          },
+          "IFC Parameters": {
+            "IfcDescription": "",
+            "IfcExportAs": "",
+            "IfcExportType": ""
+          },
+          "Analytical Properties": {
+            "Heat Transfer Coefficient (U)": "0.000 W/(m²·K)",
+            "Thermal Resistance (R)": "0.000 (m²·K)/W",
+            "Thermal Mass": "0.000 kJ/K",
+            "Absorptance": "0.100",
+            "Roughness": "1"
+          }
+        }
+      },
+      {
+        "objectid": 11241,
+        "name": "Basic Roof",
+        "externalId": "c9dc9568-2972-42a1-9ca0-3b5362150434",
+        "properties": {}
+      },
+      {
+        "objectid": 11096,
+        "name": "Roofs",
+        "externalId": "c68203c5-afee-4d51-bb12-1611cfea53ac",
+        "properties": {}
+      },
+      {
+        "objectid": 1,
+        "name": "Model",
+        "externalId": "doc_a3ab104f-1fc2-4e15-af68-10bab64820d2",
+        "properties": {
+          "Identity Data": {
+            "Organization Name": "",
+            "Organization Description": "",
+            "Building Name": "",
+            "Author": "",
+            "File Name": "",
+            "Level of information": "",
+            "Project and BIM path": "Indsæt sti til dokumentet Projekt og BIM plan",
+            "Project Entreprise": "",
+            "Model Version": "0.000",
+            "Valid file format": "",
+            "Workset": "Project Info",
+            "Edited by": ""
+          },
+          "Other": {
+            "Project Issue Date": "",
+            "Project Status": "#####",
+            "Client Name": "(Bygherre)",
+            "Project Address": "",
+            "Project Name": "(Projektnavn)",
+            "Project Number": "xxxxx-xxx",
+            "Project File Path": "\\\\"
+          },
+          "Model Properties": {
+            "Workset (Manual)": "No"
+          },
+          "Energy Analysis": {
+            "Energy Settings": ""
+          },
+          "Route Analysis": {
+            "Route Analysis Settings": ""
+          }
+        }
+      }
+    ]
+  }
+}
