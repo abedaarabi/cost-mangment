@@ -7,7 +7,7 @@
 
 */
 
-const data = require("./data.json");
+const data = require("./data1.json");
 
 const hasIdentityData = (arr) => {
   const eltCollection = arr
@@ -24,9 +24,9 @@ const hasIdentityData = (arr) => {
   return eltCollection;
 };
 
-const resultData = hasIdentityData(data.data.collection).filter((item) =>
-  item.name.includes("Basic Wall")
-);
+const resultData = hasIdentityData(data.data.collection).filter((item) => {
+  return item.name.includes("Basic Wall") || item.name.includes("Floor");
+});
 
 const unitPriceBaton = 23;
 const indx1 = 9.5;
@@ -41,12 +41,14 @@ const wallPrices = {
   "Sandwichelement - 450mm": 4000,
   "Beton vægelement - 150mm": 1300,
   "Fundament - 900mm": 5500,
+  "Beton bagvægs sternelement  - 240mm": 5500,
 };
 
 function getTotal(data) {
-  let obj = {};
-
-
+  let obj = {
+    ["Basic Wall "]: {},
+    ["Floor "]: {},
+  };
 
   for (let wall of data) {
     const wallIdentityData =
@@ -59,8 +61,11 @@ function getTotal(data) {
     const wallTypes = wall.properties["Identity Data"]["Type Name"];
 
     const totalArea = Number(wallArea.split("m^2")[0]);
-    if (!obj[wallTypes]) {
-      obj[wallTypes] = {
+    const wallName = wall.name;
+    const wWallName = wallName.split("[")[0];
+
+    if (!obj[wall]) {
+      obj[wWallName][wallTypes] = {
         totalArea: 0,
         sum: 0,
         totalPrice: 0,
@@ -69,15 +74,19 @@ function getTotal(data) {
     }
 
     if (wallTypes === "Fundament - 900mm") {
-      delete obj[wallTypes].totalArea;
-      obj[wallTypes].totalWidth += Number(foundation.split("m^3")[0]);
-      obj[wallTypes].totalPrice += Number(totalArea) * +wallPrices[wallTypes];
-      obj[wallTypes].sum++;
+      obj[wWallName][wallTypes].totalWidth += Number(
+        foundation.split("m^3")[0]
+      );
+      obj[wWallName][wallTypes].totalPrice +=
+        Number(totalArea) * +wallPrices[wallTypes];
+      obj[wWallName][wallTypes].sum++;
+      delete obj[wWallName][wallTypes].totalArea;
     } else {
-      delete obj[wallTypes].totalWidth;
-      obj[wallTypes].totalArea += Number(totalArea);
-      obj[wallTypes].totalPrice += Number(totalArea) * +wallPrices[wallTypes];
-      obj[wallTypes].sum++;
+      delete obj[wWallName][wallTypes].totalWidth;
+      obj[wWallName][wallTypes].totalArea += Number(totalArea);
+      obj[wWallName][wallTypes].totalPrice +=
+        Number(totalArea) * +wallPrices[wallTypes];
+      obj[wWallName][wallTypes].sum++;
     }
   }
   return obj;
