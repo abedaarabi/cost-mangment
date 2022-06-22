@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "write-excel-file": "^1.4.4",
+    "xlsx": "^0.18.5"
+  }
 }

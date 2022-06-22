@@ -7,7 +7,9 @@
 
 */
 
-const data = require("./data1.json");
+const xlsx = require("xlsx");
+
+const data = require("./data.json");
 
 const hasIdentityData = (arr) => {
   const eltCollection = arr
@@ -25,7 +27,11 @@ const hasIdentityData = (arr) => {
 };
 
 const resultData = hasIdentityData(data.data.collection).filter((item) => {
-  return item.name.includes("Basic Wall") || item.name.includes("Floor");
+  return (
+    item.name.includes("Basic Wall") ||
+    item.name.includes("Floor") ||
+    item.name.includes("Basic Roof")
+  );
 });
 
 const unitPriceBaton = 23;
@@ -42,13 +48,25 @@ const wallPrices = {
   "Beton vægelement - 150mm": 1300,
   "Fundament - 900mm": 5500,
   "Beton bagvægs sternelement  - 240mm": 5500,
+  "Huldæk - 180mm": 5500,
+};
+const hours = {
+  //Price for each wall type
+  "Sandwichelement - 480mm": 2,
+  "Sandwichelement - 450mm": 1.7,
+  "Beton vægelement - 150mm": 3,
+  "Fundament - 900mm": 3.21,
+  "Beton bagvægs sternelement  - 240mm": 3,
+  "Huldæk - 180mm": 0.5,
 };
 
 function getTotal(data) {
-  let obj = {
-    ["Basic Wall "]: {},
-    ["Floor "]: {},
-  };
+  const obj1 = resultData.reduce((acc, elment) => {
+    const wallName = elment.name;
+    const wWallName = wallName.split("[")[0];
+    acc[wWallName] = {};
+    return acc;
+  }, {});
 
   for (let wall of data) {
     const wallIdentityData =
@@ -64,8 +82,8 @@ function getTotal(data) {
     const wallName = wall.name;
     const wWallName = wallName.split("[")[0];
 
-    if (!obj[wall]) {
-      obj[wWallName][wallTypes] = {
+    if (!obj1[wWallName][wallTypes]) {
+      obj1[wWallName][wallTypes] = {
         totalArea: 0,
         sum: 0,
         totalPrice: 0,
@@ -74,90 +92,65 @@ function getTotal(data) {
     }
 
     if (wallTypes === "Fundament - 900mm") {
-      obj[wWallName][wallTypes].totalWidth += Number(
+      obj1[wWallName][wallTypes].totalWidth += Number(
         foundation.split("m^3")[0]
       );
-      obj[wWallName][wallTypes].totalPrice +=
+      obj1[wWallName][wallTypes].totalPrice +=
         Number(totalArea) * +wallPrices[wallTypes];
-      obj[wWallName][wallTypes].sum++;
-      delete obj[wWallName][wallTypes].totalArea;
+      obj1[wWallName][wallTypes].sum++;
+      delete obj1[wWallName][wallTypes].totalArea;
     } else {
-      delete obj[wWallName][wallTypes].totalWidth;
-      obj[wWallName][wallTypes].totalArea += Number(totalArea);
-      obj[wWallName][wallTypes].totalPrice +=
+      delete obj1[wWallName][wallTypes].totalWidth;
+      obj1[wWallName][wallTypes].totalArea += Number(totalArea);
+      obj1[wWallName][wallTypes].totalPrice +=
         Number(totalArea) * +wallPrices[wallTypes];
-      obj[wWallName][wallTypes].sum++;
+      obj1[wWallName][wallTypes].sum++;
     }
   }
-  return obj;
+
+  // await writeXls("test.xlsx", obj1);
+
+  return obj1;
 }
 
 const result1 = getTotal(resultData);
 
-console.log(result1);
+const groupBy = Object.keys(result1);
+const dataObj = Object.values(result1);
+const schema = dataObj.map((i) => Object.keys(i)).flat();
+const values = dataObj.map((i) => Object.values(i)).flat();
+const element = Object.entries(dataObj).flat();
 
-// const result = resultData.map((wall) => {
-//   let obj = {};
-//   const wallIdentityData =
-//     wall.properties["Identity Data"]["Type Name"].split("-")[1];
+const bb = schema.map((g, idx) => {
+  console.log(g, idx);
+  return { type: g, ...values[idx] };
+});
 
-//   const wallArea = wall.properties["Dimensions"]["Area"];
+const yy = dataObj.map((d, idx) => {
+  const val = Object.values(d);
 
-//   const wallTypes = wall.properties["Identity Data"]["Type Name"];
+  console.log(d);
+  return val;
+});
 
-//   const totalArea = Number(wallArea.split("m^2")[0]);
-//   if (!obj[wallTypes]) {
-//     obj[wallTypes] = { totalArea: 0 };
-//   }
+// const yy = dataObj.reduce((acc, val, idx) => {
+//   const obj = {};
 
-//   obj[wallTypes].totalArea += totalArea;
+//   acc.push(val);
+//   return acc;
+// }, []);
+console.log(yy);
+// const newWB = xlsx.utils.book_new();
+// groupBy.forEach((val, idx) => {
+//   const newWS = xlsx.utils.json_to_sheet(yy[idx]);
 
-//   return obj;
+//   xlsx.utils.book_append_sheet(newWB, newWS, val);
+//   xlsx.writeFile(newWB, "metadata_cost.xlsx");
 // });
 
-// console.log(result);
+// const newWB = xlsx.utils.book_new();
 
-// const resultIndx = (unitPriceBaton / indx1) * indx2;
-// const resultPrice = totalArea480mm * resultIndx;
+// const newWs = xlsx.utils.json_to_sheet(bb);
 
-// console.log("Result Price: ", resultPrice);
-
-// const walls = [
-//   {
-//     typeName: "Sandwichelement - 480mm",
-//     area: 28.165,
-//   },
-//   {
-//     typeName: "Sandwichelement - 480mm",
-//     area: 22.165,
-//   },
-//   {
-//     typeName: "Beton vægelement - 150mm",
-//     area: 89.15,
-//   },
-//   {
-//     typeName: "Beton vægelement - 150mm",
-//     area: 165,
-//   },
-//   {
-//     typeName: "Fundament - 900mm",
-//     area: 45.2,
-//   },
-//   {
-//     typeName: "Fundament - 900mm",
-//     area: 16.5,
-//   },
-// ];
-
-// const result = walls.reduce((acc, val) => {
-//   if (!acc[val.typeName]) {
-//     acc[val.typeName] = { totalArea: 0 };
-//   }
-
-//   acc[val.typeName]["totalArea"] += val.area;
-
-//   //I need the sum of Each wall type?!
-//   return acc;
-// }, {});
-
-// console.log(result);
+// xlsx.utils.book_append_sheet(newWB, newWs, "cost");
+// xlsx.writeFile(newWB, "metadata_cost.xlsx");
