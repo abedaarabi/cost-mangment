@@ -9,7 +9,7 @@
 
 const xlsx = require("xlsx");
 
-const data = require("./data.json");
+const data = require("./data1.json");
 
 const hasIdentityData = (arr) => {
   const eltCollection = arr
@@ -84,6 +84,7 @@ function getTotal(data) {
 
     if (!obj1[wWallName][wallTypes]) {
       obj1[wWallName][wallTypes] = {
+        type: wallTypes,
         totalArea: 0,
         sum: 0,
         totalPrice: 0,
@@ -121,15 +122,15 @@ const schema = dataObj.map((i) => Object.keys(i)).flat();
 const values = dataObj.map((i) => Object.values(i)).flat();
 const element = Object.entries(dataObj).flat();
 
+console.log(dataObj);
+
 const bb = schema.map((g, idx) => {
-  console.log(g, idx);
   return { type: g, ...values[idx] };
 });
 
 const yy = dataObj.map((d, idx) => {
   const val = Object.values(d);
 
-  console.log(d);
   return val;
 });
 
@@ -139,14 +140,14 @@ const yy = dataObj.map((d, idx) => {
 //   acc.push(val);
 //   return acc;
 // }, []);
-console.log(yy);
-// const newWB = xlsx.utils.book_new();
-// groupBy.forEach((val, idx) => {
-//   const newWS = xlsx.utils.json_to_sheet(yy[idx]);
 
-//   xlsx.utils.book_append_sheet(newWB, newWS, val);
-//   xlsx.writeFile(newWB, "metadata_cost.xlsx");
-// });
+const newWB = xlsx.utils.book_new();
+groupBy.forEach((val, idx) => {
+  const newWS = xlsx.utils.json_to_sheet(yy[idx]);
+
+  xlsx.utils.book_append_sheet(newWB, newWS, val);
+  xlsx.writeFile(newWB, "metadata_cost.xlsx");
+});
 
 // const newWB = xlsx.utils.book_new();
 
