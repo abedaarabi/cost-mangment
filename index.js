@@ -9,7 +9,7 @@
 
 const xlsx = require("xlsx");
 
-const data = require("./data1.json");
+const data = require("./data.json");
 
 const hasIdentityData = (arr) => {
   const eltCollection = arr
@@ -84,28 +84,28 @@ function getTotal(data) {
 
     if (!obj1[wWallName][wallTypes]) {
       obj1[wWallName][wallTypes] = {
-        type: wallTypes,
-        totalArea: 0,
-        sum: 0,
-        totalPrice: 0,
-        totalWidth: 0,
+        [wWallName + "- Types"]: wallTypes,
+        Sum: 0,
+        ["Total Area"]: 0,
+        ["Total Width"]: 0,
+        ["Total Price"]: 0,
       };
     }
 
     if (wallTypes === "Fundament - 900mm") {
-      obj1[wWallName][wallTypes].totalWidth += Number(
+      obj1[wWallName][wallTypes]["Total Width"] += Number(
         foundation.split("m^3")[0]
       );
-      obj1[wWallName][wallTypes].totalPrice +=
-        Number(totalArea) * +wallPrices[wallTypes];
-      obj1[wWallName][wallTypes].sum++;
-      delete obj1[wWallName][wallTypes].totalArea;
+      obj1[wWallName][wallTypes]["Total Price"]["Total Price"] +=
+        Number(["Total Area"]) * +wallPrices[wallTypes];
+      obj1[wWallName][wallTypes].Sum++;
+      delete obj1[wWallName][wallTypes]["Total Area"];
     } else {
       delete obj1[wWallName][wallTypes].totalWidth;
-      obj1[wWallName][wallTypes].totalArea += Number(totalArea);
-      obj1[wWallName][wallTypes].totalPrice +=
-        Number(totalArea) * +wallPrices[wallTypes];
-      obj1[wWallName][wallTypes].sum++;
+      obj1[wWallName][wallTypes]["Total Area"] += Number(totalArea);
+      obj1[wWallName][wallTypes]["Total Price"] +=
+        Number(["Total Area"]) * +wallPrices[wallTypes];
+      obj1[wWallName][wallTypes].Sum++;
     }
   }
 
@@ -115,6 +115,7 @@ function getTotal(data) {
 }
 
 const result1 = getTotal(resultData);
+console.log(result1);
 
 const groupBy = Object.keys(result1);
 const dataObj = Object.values(result1);
@@ -122,7 +123,7 @@ const schema = dataObj.map((i) => Object.keys(i)).flat();
 const values = dataObj.map((i) => Object.values(i)).flat();
 const element = Object.entries(dataObj).flat();
 
-console.log(dataObj);
+// console.log(dataObj);
 
 const bb = schema.map((g, idx) => {
   return { type: g, ...values[idx] };
