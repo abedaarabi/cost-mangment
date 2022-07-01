@@ -49,6 +49,7 @@ const wallPrices = {
   "Fundament - 900mm": 5500,
   "Beton bagvægs sternelement  - 240mm": 5500,
   "Huldæk - 180mm": 5500,
+  "Generic - 400mm": 5900,
 };
 const hours = {
   //Price for each wall type
@@ -58,6 +59,7 @@ const hours = {
   "Fundament - 900mm": 3.21,
   "Beton bagvægs sternelement  - 240mm": 3,
   "Huldæk - 180mm": 0.5,
+  "Generic - 400mm": 0.8,
 };
 
 function getTotal(data) {
@@ -75,7 +77,7 @@ function getTotal(data) {
     const wallArea = wall.properties["Dimensions"]["Area"];
 
     const foundation = wall.properties["Dimensions"]["Volume"];
-
+    const totalVolum = Number(foundation.split("m^3")[0]);
     const wallTypes = wall.properties["Identity Data"]["Type Name"];
 
     const totalArea = Number(wallArea.split("m^2")[0]);
@@ -89,27 +91,29 @@ function getTotal(data) {
         ["Total Area"]: 0,
         ["Total Width"]: 0,
         ["Total Price"]: 0,
+        ["Total Hours"]: 0,
       };
     }
 
     if (wallTypes === "Fundament - 900mm") {
-      obj1[wWallName][wallTypes]["Total Width"] += Number(
-        foundation.split("m^3")[0]
-      );
-      obj1[wWallName][wallTypes]["Total Price"]["Total Price"] +=
-        Number(["Total Area"]) * +wallPrices[wallTypes];
+      obj1[wWallName][wallTypes]["Total Width"] += totalVolum;
+
+      obj1[wWallName][wallTypes]["Total Price"] +=
+        totalVolum * +wallPrices[wallTypes];
       obj1[wWallName][wallTypes].Sum++;
+      obj1[wWallName][wallTypes]["Total Hours"] += hours[wallTypes];
       delete obj1[wWallName][wallTypes]["Total Area"];
     } else {
-      delete obj1[wWallName][wallTypes].totalWidth;
+      delete obj1[wWallName][wallTypes]["Total Width"];
       obj1[wWallName][wallTypes]["Total Area"] += Number(totalArea);
+      obj1[wWallName][wallTypes]["Total Hours"] += totalArea * hours[wallTypes];
       obj1[wWallName][wallTypes]["Total Price"] +=
-        Number(["Total Area"]) * +wallPrices[wallTypes];
+        totalArea * +wallPrices[wallTypes];
       obj1[wWallName][wallTypes].Sum++;
     }
   }
 
-  // await writeXls("test.xlsx", obj1);
+  // await writeXls("test.xlsx", obj1);BTW, fremover må du gerne huske på at reglen er min 3 ugentlige dage på kontoret
 
   return obj1;
 }
